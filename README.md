@@ -12,6 +12,13 @@ Sort both arrays descending. The grid of sums is now non-increasing along every 
 
 **Complexity:** O((n+m) log + k log k) — effectively O(k log k) after the sorts.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
